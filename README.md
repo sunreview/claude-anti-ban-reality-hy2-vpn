@@ -51,7 +51,7 @@
 **VPS**
 - 系统：Debian 11/12 或 Ubuntu 20.04+（脚本只支持 apt 系），需要 root 权限
 - 配置：1 核 1G 就够个人使用
-- 位置：在中国大陆使用的话，美西（洛杉矶、圣何塞）或日本、新加坡比较常见。线路（CN2 GIA / 9929 / CMI 等）比机器配置重要得多
+- 位置：美国，推荐美西的洛杉矶（离中国大陆近、延迟低）。线路（CN2 GIA / 9929 / CMI 等）比机器配置重要得多
 - **443 端口不能被占用**：如果装了宝塔、nginx 并占用了 443，要么换端口，要么让出 443（查看命令：`ss -tlnp | grep :443`）
 
 **本地客户端**
@@ -554,6 +554,7 @@ VPS-Reality-8443: {"delay":527}
 ```
 .
 ├── README.md                     # 本文
+├── LICENSE                       # MIT
 ├── install.sh                    # 服务端一键安装（Debian/Ubuntu）
 ├── scripts/
 │   └── mac-check.sh              # macOS 客户端自检
@@ -574,3 +575,7 @@ cp -r skill/self-hosted-vpn ~/.claude/skills/
 ## 致谢
 
 - [XTLS/Xray-core](https://github.com/XTLS/Xray-core) · [apernet/hysteria](https://github.com/apernet/hysteria) · [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo) · [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) · [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat)
+
+## License
+
+[MIT](LICENSE)
