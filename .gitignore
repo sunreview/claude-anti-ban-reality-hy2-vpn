@@ -1,0 +1,6 @@
+# 客户端配置含密钥，永远不要提交
+*.yaml
+!.github/**/*.yaml
+links.txt
+vpn-client/
+.DS_Store
