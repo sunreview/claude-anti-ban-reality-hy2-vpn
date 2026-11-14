@@ -1,4 +1,4 @@
-# 自建代理全流程：VLESS-Reality + Hysteria2 + Clash Verge（含踩坑记录）
+# Claude 账号 防封 / 自建代理全流程：VLESS-Reality + Hysteria2 + Clash Verge（含踩坑记录）
 
 一台海外 VPS，两个协议、三个节点，电脑和手机一起全局代理。本文是我在一台洛杉矶 VPS（Debian 12，1 核 1G）上从零搭到可以长期使用的完整记录。附带一键安装脚本，也有逐步手动的做法，以及实际踩过的坑。
 
