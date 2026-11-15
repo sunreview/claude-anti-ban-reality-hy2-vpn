@@ -579,6 +579,11 @@ cp -r skill/self-hosted-vpn ~/.claude/skills/
 
 `install.sh` 在发布前用 `RENDER_ONLY=1` 模式在真实 VPS 上做过端到端测试：用生成的服务端配置在测试端口上启动 Xray 和 Hysteria2，再用 mihomo v1.19.33 加载生成的 `clash.yaml`，三个节点全部连通，经代理访问 Google 返回 200。
 
+## Claude Pro 免kyc 成品号
+如果大家找不到合适的渠道购买 Claude 普号 和 Claude Pro 会员成品号，可以查看 [AI杂货铺](https://store.ai-headshot.net/)
+这里配备了可以接码登陆的Claude普号，以及不用国外信用卡就可以轻松购买 Claude Pro 免kyc 成品号。
+
+
 ## 致谢
 
 - [XTLS/Xray-core](https://github.com/XTLS/Xray-core) · [apernet/hysteria](https://github.com/apernet/hysteria) · [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo) · [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) · [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat)
